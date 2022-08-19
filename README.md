@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Ruby Enumarable
 
 > This project is build for learling purpose,that we tried to learn Ruby module, class, block, and many more. we developed enumerable project with any, all, find, sort, and filter enumerable methods.
 

@@ -1,17 +1,29 @@
 module MyEnumerable
+  def list
+    @list ||= []
+  end
+
   def all?
-    my_each { |item| return true if yield item }
-    true
+    ary = []
+    list.each do |i|
+      ary.push(i) if yield i
+    end
+    p ary.length == list.length
   end
 
   def any?
-    my_each { |item| return false unless yield item }
-    false
+    ary = []
+    list.each do |i|
+      ary.push(i) if yield i
+    end
+    p !ary.empty?
   end
 
   def filter
-    arr = []
-    my_each { |item| arr << item if yield item }
-    arr
+    ary = []
+    list.each do |i|
+      ary.push(i) if yield i
+    end
+    p ary
   end
 end

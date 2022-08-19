@@ -5,6 +5,10 @@ class MyList
   def initialize(*list)
     @list = list
   end
+
+  def my_each(&block)
+    @list.each { |item| block.call item }
+  end
 end
 
 # Create our list

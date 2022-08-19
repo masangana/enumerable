@@ -2,55 +2,57 @@
 
 # Project Name
 
-> Description the project.
-
+> This project is build for learling purpose,that we tried to learn Ruby module, class, block, and many more. we developed enumerable project with any, all, find, sort, and filter enumerable methods.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Linters => Rubocop
+-
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+1.  Download the zip file form git@github.com:masangana/enumerable.git or clone it.
+2.  open the file by your prefered IDE, go to the project root folder.
+3.  run the command ' ruby my_list.rb'
 
 ### Prerequisites
 
+- A web browser.
+- A code editor.
+
 ### Setup
+
+You can check if Git is installed by running the following command in the terminal.
+
+```
+$ git --version
+$ ruby --version && irb
+```
 
 ### Install
 
-### Usage
+```
+$ gh repo clone git@github.com:masangana/enumerable
+```
 
 ### Run tests
 
-### Deployment
-
-
+    ruby  my_list.rb
 
 ## Authors
 
-👤 **Author1**
+👤 **Alex Masangana**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-Alexander-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/masangana)
+- Twitter: [![Twitter Badge](https://img.shields.io/badge/-Alexander-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/alexmasangana)
+- Gmail: [![Gmail Badge](https://img.shields.io/badge/-@Alexander-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:alexmasangana@gmail.com)
 
-👤 **Author2**
+👤 **Worash**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/worashf)
+- Twitter: [@twitterhandle](https://twitter.com/WorashAboche)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/worash-abocherugn/)
 
 ## 🤝 Contributing
 
@@ -61,12 +63,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

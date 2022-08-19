@@ -22,11 +22,11 @@ list.all? { |e| e > 5 }
 #=> false
 
 # Test #any?
-list.any?(&:zero?)
+list.any? {|e| e == 2}
 #=> true
 list.any? { |e| e == 5 }
 #=> false
 
 # Test #filter
-list.filter(&:even?)
+list.filter {|e| e.even?}
 #=> [2, 4]
